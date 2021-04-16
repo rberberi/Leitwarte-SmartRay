@@ -1,0 +1,19 @@
+﻿<Page x:Class="SmartRay_Leitwarte.Pages.NLA592.OP_R40_B_Aenderungen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SmartRay_Leitwarte.Pages.NLA592"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="OP_R40_B_Aenderungen">
+
+    <Grid>
+        <Label x:Name="label" Content="OP_R40_B_Aenderungen" HorizontalAlignment="Left" Margin="111,150,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_neue_aenderungen" Content="Änderungen anzeigen" HorizontalAlignment="Left" Margin="21,20,0,0" VerticalAlignment="Top" Width="130" Height="33" Background="#FFB4D897" BorderBrush="#FFEBEBF5" BorderThickness="2" Foreground="#FF214578" Click="btn_neue_aenderungen_Click"/>
+        <Button x:Name="btn_quittierte_aenderungen" Content="Quittierte Änderungen anzeigen" HorizontalAlignment="Left" Margin="330,20,0,0" VerticalAlignment="Top" Width="214" Background="#FFB4D897" BorderBrush="#FFEBEBF5" BorderThickness="2" Foreground="#FF214578" Height="33"/>
+        <Button x:Name="btn_quittieren" Content="Änderung quittieren" HorizontalAlignment="Left" Margin="174,20,0,0" VerticalAlignment="Top" Width="130" Height="33" Background="#FFB4D897" BorderBrush="#FFEBEBF5" BorderThickness="2" Foreground="#FF214578" Click="btn_quittieren_Click"/>
+
+
+    </Grid>
+</Page>
